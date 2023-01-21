@@ -1,0 +1,347 @@
+.account_infos{
+    margin-top: 8rem;
+    margin-left: 2rem;
+}
+.account_infos h1{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.titleAddress{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.home_title_boxes{
+    text-align: center;
+}
+.red{
+    background-color: rgb(255, 106, 106);
+}
+
+.green{
+    background-color: rgb(97, 195, 97);
+}
+.account_button_disconnect{
+    border-color: rgb(43, 43, 43);
+    border-radius:15px;
+    height: 2rem;
+    width: 18rem;
+    background-color: rgb(122, 184, 255);
+    margin-top: 1rem;
+    margin-bottom: 1rem;    
+    transition: all 0,5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    font-size: 115%;
+    cursor: url(hand.cur), pointer;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.account_button_disconnect:hover{
+    transform: translate(0.2rem,0.2rem);
+}
+
+#button_ano_admin{
+    background-color: rgb(43, 142, 255);
+    margin-top: 0rem;
+    height: 2rem;
+    width: 22rem;
+}
+#button_ano_admin:hover{
+    transform: translate(0.2rem,0.2rem);
+}
+
+#div_button_account_ano_admin{
+    display: block;
+    text-align: center;
+}
+#div_button_account_ano_admin p{
+    margin-top: 1rem;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.display_detail_commande{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+    margin-top: 4rem
+}
+
+.display_detail_commande hr{
+    background-color: #343434;
+    border-top: 1px solid #343434;
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.account_add_info_commande{
+    font-style: italic;
+    background-color: rgba(173, 216, 230, 0);
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.cross_out_detail {
+    position: absolute;
+    top: -2rem;
+    right: 0.5rem;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 160%;
+}
+.cross_out_detail:hover{
+    color: rgb(255, 255, 255);
+    
+}
+
+.display_detail_commande h5{
+    text-decoration: underline;
+    font-weight: bolder;
+    margin-bottom:1rem;
+}
+
+.div_information_commande{
+    display:inline-flex
+}
+.undiv_div_information_commande{
+    margin:0.7rem;
+    padding-top: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 20px;
+    background-color: rgb(249, 249, 249);
+    box-shadow: 10px 10px 30px rgb(0 0 0 / 25%);    
+}
+
+.undiv_div_information_commande h6{
+    font-weight: bold;
+}
+
+.display_detail_commande_info{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(189, 189, 189);
+    box-shadow: 10px 10px 30px rgb(0 0 0 / 15%);
+    padding: 2rem;
+    text-align: center;
+    border-radius: 25px;
+    overflow-y:auto;
+    overflow-x: hidden;
+    max-width: 65rem;
+    max-height: 40rem;
+}
+
+.button_style_edit{
+    border-radius:15px;
+    height: 2rem;
+    min-width: 8rem;
+    background-color: rgb(137, 154, 187);
+    margin-top: 1rem;
+    margin-left: 2px;
+    margin-bottom: 1rem;
+    transition: all 0,5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    cursor: url(hand.cur), pointer;
+}
+
+.button_style_edit:hover{
+    transform: translate(0.2rem,0.2rem);
+}
+
+.account_container{
+    border: 2px solid black;
+    border-radius: 15px;
+    align-items: center;
+    display:inline-table;
+    width: 75vw;
+    height: 60vh;
+    padding:1rem;
+    background-color: rgb(148, 141, 141);
+}
+.account_container hr{
+    margin-top: 1rem;
+    border: 1px solid black;
+    overflow: visible;
+}
+
+.account_container h4 {
+    margin-top: 0.5rem;
+}
+
+.button_account_option{
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    display: inline;
+    padding: 1rem;
+    cursor: url(hand.cur), pointer;
+}
+
+.account_options{
+    margin-top: 1rem;
+}
+
+.div_center_button_modify{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blur_command {
+    filter: blur(2px);
+}
+
+
+.confirm_div{
+    margin-top: 8rem;
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+
+.confirm_div h3{
+    margin-top: 1rem;
+}
+
+.confirm_div #h3{
+    color: rgb(255, 58, 58);
+    text-decoration: underline;
+}
+
+#button_modify_info{
+    margin-top: 1rem;
+    cursor: url(hand.cur), pointer;
+}
+
+#button_modify_info_password{
+    margin-top: 1rem;
+    padding-left: 1rem;
+    cursor: url(hand.cur), pointer;
+}
+
+.account_section_profil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display_account_block {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: lightgrey;
+    border-radius: 25px;
+    padding: 1rem;
+    margin-top: 2rem;
+    width: 25%;
+}
+
+.display_block_set_height{
+    min-height: 16rem;
+}
+
+.account_add_info {
+    border: none;
+    background-color: rgb(126, 126, 126);
+    font-style: italic;
+}
+
+#display_inline {
+    display: inline-flex;
+}
+#display_inline p{
+    margin-left: 0.5rem;
+}
+
+#hr_account{
+    margin-top: 2rem;
+}
+
+.div_account_button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 92vw;
+}
+
+.button_account_select{
+    background-color:rgb(79, 79, 79) ; 
+    border-color:rgb(255, 255, 255) ; 
+    color:white;
+    border:2px solid white
+}
+
+#toWriteAddresses{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1em;
+}
+
+#toWriteAddresses div{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 1px solid black;
+    cursor: url(end.cur),pointer;
+    transition: all ease 0.4s;
+}
+
+#toWriteAddresses div:hover{
+    background-color: grey;
+}
+
+#center_text{
+    text-align: center;
+}
+
+.btn_detail_commande{
+    border: 0px solid red;
+    background-color: rgba(240, 248, 255, 0);
+    /* border-radius: 5px;
+    padding-bottom: -10px;
+    border-bottom: 2px solid rgb(0, 0, 0) ; 
+    background: radial-gradient(rgba(42, 42, 42, 0.211), rgba(148, 141, 141)); */
+    
+}
+
+.btn_detail_commande:hover{
+    color: blue;
+}
+
+
+#btn_detail_commande_cellule{
+    border: 0px solid red;
+    background-color: rgba(42, 42, 42, 0);
+}
+
+#display_commandes th {
+    padding: 5px;
+    border-radius: 20px;
+    background-color: lightgray;
+    border-top: 2px solid rgb(39, 39, 39) ;
+    border-left: 2px solid rgb(0, 0, 0) ;
+    border-right: 2px solid rgb(0, 0, 0) ;
+    border-bottom: 2px solid rgb(0, 0, 0) ;
+    box-shadow: 10px 10px 30px rgb(0 0 0 / 15%);
+}
+
+#td_commande {
+    border-radius: 20px;
+    background-color: white;
+    border-bottom: 1px solid rgb(0, 0, 0) ;
+    border-right: 1px solid rgb(0, 0, 0) ;
+    border-left: 1px solid rgb(0, 0, 0) ;
+    border-top: 1px solid rgb(0, 0, 0) ;
+    padding-top: 7px;
+    box-shadow: 10px 10px 30px rgb(0 0 0 / 15%);
+}
+
+
+
+/* #h1_paiement{
+    margin-top: 10rem;
+    text-align: center;
+}
+
+
+#div_btn_annuler_paiement{
+    text-align: center;
+} */

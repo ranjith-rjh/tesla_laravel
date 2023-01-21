@@ -1,0 +1,102 @@
+.butSubHeader {
+    display: block;
+    position: relative;
+    padding: 0.2em 0;
+    transition: all ease 1s;
+    width: 5rem;
+    text-decoration: none;
+    color: black;
+}
+
+.bandeau_header{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.slider_aide{
+    width: 20vw;
+    height: 100vh;
+    position: absolute;
+    border: 1px solid black;
+    z-index: 3;
+    display: none;
+}
+
+.header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 6rem;
+    background-color: rgba(69,123,157,0.78);
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-around; */
+    font-size: 20px;
+}
+.subHeader{
+    display: flex;
+    flex-direction: row;
+    gap : 3rem;
+    padding-bottom: 1rem;
+    position: fixed;
+    right: 5rem;
+}
+
+.butSubHeader::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.05em;
+    background-color: black;
+    opacity: 0;
+    transition: opacity 300ms, transform 300ms;   
+}
+.logo{
+    width: 45px;
+    height: auto;
+}
+.div_header_logo{
+    display: flex;
+    flex-direction: row;
+    /* gap: 2rem; */
+}
+
+#header_boutique:hover::after,
+#header_boutique:focus::after {
+    opacity: 1;
+    transform: translate3d(0, 0.2em, 0);
+    content: "Boutique"; 
+}
+#header_compte:hover::after,
+#header_compte:focus::after {
+    opacity: 1;
+    transform: translate3d(0, 0.2em, 0);
+    content: "Compte"; 
+}
+#header_panier:hover::after,
+#header_panier:focus::after {
+    opacity: 1;
+    transform: translate3d(0, 0.2em, 0);
+    content: "Panier"; 
+}
+#header_aide:hover::after,
+#header_aide:focus::after {
+    opacity: 1;
+    transform: translate3d(0, 0.2em, 0);
+    content: "Aide"; 
+}
+
+
+#a_header_tesla{
+    margin-left: 5rem;
+}
+
+
+

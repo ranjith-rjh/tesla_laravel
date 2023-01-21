@@ -1,0 +1,160 @@
+.div_aide{
+    margin-top: 10rem;
+    align-items: center;
+    text-align: center;
+}
+.div_aide_panier{
+    display: inline-flex;
+}
+#div_grande_aide_panier{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    text-align: center;
+    align-items: center;
+}
+#div_panier_vide{
+    text-align: center;
+    align-items: center;
+    margin-top: 7rem;
+}
+.clickable{
+    color: blue;
+    text-decoration: underline;
+}
+.txt_plus_petit{
+    font-size: 13px;
+}
+
+/* TESTS POUR FAIRE LE BANDEAU D'AIDE */
+.englobe{
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+
+}
+.div_petit_bandeau_aide{
+    background-color: black;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 3rem;
+    /* min-width: 15rem; */
+    margin-left: 2rem;
+    transition: ease all 0.5s;
+    cursor: pointer;
+    /* right: 20px; */
+    font-size: 30px;
+    border-radius: 15px 5px 15px 15px ;
+    border: 2px solid white;
+    z-index: 1;
+    
+}
+.div_petit_bandeau_aide:hover{
+    transform:scale(1.1);
+}
+.div_petit_bandeau_aide>p{
+    margin: 0px;
+}
+.div_bandeau_aide{
+    margin-top: 11rem;  
+    width:0rem;
+    background-color: black;
+    color: white;
+    display: block;
+    transition: ease all 0.5s;
+    height: 70vh;
+    border-radius: 10px;
+    z-index: 3;
+    padding-top: 1rem;
+}
+.div_bandeau_aide_content{
+    padding: 0.7rem;
+    height: 50rem;
+    max-height:65vh;
+    overflow-y:auto;
+    overflow-x: hidden;
+        /* border: 6px rgb(215, 25, 25) solid; */
+}
+.title_aide{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.petit_title_aide{
+    font-size: 19px;
+    border: 1px solid grey;
+    padding: 5px;
+    margin-top: 2vh;
+    background-color: rgb(13, 14, 51);
+}
+.petit_title_aide:hover{
+    cursor: pointer;
+}
+.txt_aide{
+    font-size: 16px;
+}
+.img_aide{
+    width: 20vw;
+    height: auto;
+}
+.displayedNone{
+    display: none;
+}
+
+.agrandi{
+    width: 30vw;
+    transition: ease all 0.5s;
+}
+.div_txt_aide{
+    border:1px solid grey;
+    padding:4px;
+    margin-left: 1rem;
+    background-color: rgb(40, 41, 98);
+}
+.txt_cliquable{
+    color: rgb(125, 160, 255);
+    text-decoration: underline;
+}
+.txt_cliquable:hover{
+    color: rgb(156, 102, 255);
+}
+.div_title_bandeau_aide{
+    display: inline-flex;
+}
+.dpba_panier{
+    margin-top: 7.5rem;
+    /* margin-bottom: 2rem; */
+}
+.resized1{
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.resized2{
+    margin-right: 2vw;
+}
+.resized3{
+    margin-bottom: 15vh;
+}
+.resized4{
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+.centered{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1vh;
+}
+.h1_modele_aide{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8rem;
+}
+.margined14{
+    margin-top: 2.5rem;
+}
+

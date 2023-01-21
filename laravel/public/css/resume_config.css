@@ -1,0 +1,99 @@
+#resume_container 
+{
+    padding-top: 20vh;
+    text-align: center;
+}
+
+#table_resume {
+    margin-bottom: 4rem;
+}
+
+#table_resume > tr{
+    width: 60%;
+}
+
+tr > td{
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+.td_resume_titre {
+    /* width: 40%; */
+}
+
+.td_resume_valeur {
+    text-align: left;
+    padding-left: 10px;
+    width: 80%;
+}
+
+.td_titre {
+    color: white;
+    background-color: black;
+}
+
+#resume_container > table{
+    border-collapse: collapse;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+#resume_container > h1 {
+    margin-bottom: 2rem;
+}
+
+hr{
+    border: 2px solid black;
+    width: 60%;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.h3_resume_already_registred{
+    color: red;
+}
+
+#resume_coordonees{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    margin-bottom: 3rem;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+/* #btn_download_resume{
+    padding : 15px;
+    border: 2px solid black;
+    margin: 2rem;
+    border-radius: 30px ;
+}
+
+#btn_download_resume:hover{
+    color: white;
+    background-color: black;
+}
+
+#btn_download_resume:hover > a{
+    color: white;
+}
+
+
+#btn_download_resume > a{
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.btn_preced_resume {
+    position: absolute;
+    bottom: .5rem;
+    left: .5rem;
+    height: 50px;
+} */
+

@@ -1,0 +1,225 @@
+.column{
+    /* position */
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_account {
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8rem;
+}
+.form_account h1{
+    font-size: 35px;
+    margin-bottom: 2rem;
+    margin-top: 8rem;
+}
+.column h4{
+    margin-top: 10px;
+}
+.div_2fa{
+    margin-top: 12rem;
+    align-items: center;
+    gap: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+.test{
+    align-items: center;
+    text-align: center;
+}
+.p_erreur_mauvais_code
+{
+    color: red;
+    font-weight: bold   ;
+}
+.div_into_form_2fa{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.btn_2fa{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 100px;
+}
+.div_into_div_2fa{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.column_margined{
+    /*taille*/
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    width:25rem;
+    min-width: 25rem;
+    border: 2px solid black;
+    display : inline-block;
+    vertical-align : top;
+    
+}
+
+.label_form_account{
+    margin-bottom: 0.4rem;
+    margin-top: 0.8rem;
+    
+}
+
+.input_form_account{
+    border-radius:15px;
+    height: 1.5rem;
+    width: 16rem;
+    margin-left:3.5rem;
+    margin-bottom:1rem;
+    padding-left: 0.5rem;
+}
+.type_create_account{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+}
+.input_forgot_email{
+    border-radius:15px;
+    height: 1.5rem;
+    width: 16rem;
+    padding-left:2rem;
+    padding-right: 2rem;
+    margin-top: 5px;
+    margin-bottom: 1rem;
+}
+
+.button_style_account {
+    border-radius:15px;
+    height: 2rem;
+    width: 18rem;
+    background-color: rgb(137, 154, 187);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    cursor: url(hand.cur), pointer;
+}
+
+.button_style_register{
+    border-radius:15px;
+    height: 2rem;
+    background-color: rgb(148, 182, 248);
+    margin-top: 5px;
+    margin-bottom: 1rem;
+    border:2px outset;
+    border-color: rgb(55, 55, 55);
+    transition: all 0,5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    cursor: url(hand.cur), pointer;
+}
+
+.button_forgot{
+    min-width: 75px;
+    text-align: justify;
+    color: rgb(20, 54, 109);
+    text-decoration : underline;
+}
+
+.h4_connection{
+    margin-bottom: 1rem;
+}
+
+.google_img_co{
+    width : 200px;
+    height : 200px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.div_forgot_password{
+    margin-top: 8rem;
+    margin-left: 2rem;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div_forgot_password h1{
+    margin-top: 0.5rem;
+    margin-bottom: 5rem;
+    font-size:30px
+}
+
+.div_forgot_password p{
+    font-size: medium;
+}
+
+.form_register_checkbox{
+    row-gap:initial;
+}
+
+.display_connection_account{
+    display: inline-block;
+    justify-content: space-around;
+}
+
+.display_flex_col {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.display_flex_row {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+#img_gg_auth{
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+}
+
+#password_id{
+    margin-top: 1rem;
+}
+#h4_connection_register{
+    margin-top: 3rem;
+    font-size: 120%;
+}
+
+.button_style_register:hover{
+    transform: translate(0.2rem,0.2rem);
+}
+
+#div_connection_google_auth{
+    margin-left: 2rem;
+    height: 17rem;
+    width: auto;
+    border-radius: 15px;
+}
+
+#button_go_register_page{
+    font-size: 115%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    cursor: url(hand.cur), pointer;
+}
+
+#div_connection_email{
+    border-radius: 15px;
+}
+
+#p_warning_info{
+    color:red;
+    font-size: 85%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#button_connection{
+    display: inline-block;
+    flex-direction: center;
+    align-items: center;
+}
